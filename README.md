@@ -8,8 +8,8 @@ This repository contains a project aimed at managing user conversation histories
 - **User History**: Fetches historical conversations for each user.
 - **Optimized History Creation**: The conversation history is stored and retrieved using highly optimized database queries, ensuring fast access and management even for large-scale data.
 ## Project Structure:
-- DatabaseManager.py: Manages PostgreSQL database operations, including creating, deleting, and fetching user and conversation data.
-- TokenizerHelper.py: Helper class for counting tokens in conversations, supporting both GPT and Hugging Face models.
+- `DatabaseManager.py`: Manages PostgreSQL database operations, including creating, deleting, and fetching user and conversation data.
+- `TokenizerHelper.py`: Helper class for counting tokens in conversations, supporting both GPT and Hugging Face models.
 ## Future Improvements:
 - **Add Support for More Databases:**
   - In addition to PostgreSQL, the system could be extended to support other databases such as MySQL, MongoDB, or SQLite.
